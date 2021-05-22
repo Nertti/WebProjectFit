@@ -1,0 +1,34 @@
+.table {
+    font-family: 'Georgia', sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #373a47;
+    font-size: 15px;
+    background: #fff!important;
+    color: #373a47;
+}
+.table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #373a47;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #373a47;
+}
+th.head{
+    background-color: #b4bad2;
+}
+.table td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+.table tbody tr:nth-child(even){
+    background: rgba(180, 186, 210, 0.6) !important;
+}

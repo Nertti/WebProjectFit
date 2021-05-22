@@ -1,0 +1,28 @@
+.general{
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+.blog{
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    border:2px solid #373a47;
+    transition: 1s;
+    display: flex;
+    border-radius: 20px;
+}
+.blog:hover{
+    background-color: rgba(55, 58, 71, 0.1);
+    cursor: pointer;
+}
+.blog img{
+    margin: 25px;
+    border: 1px solid rebeccapurple;
+}
+.blog .button{
+    position: relative;
+    top: 100px;
+    left: 370px;
+}
