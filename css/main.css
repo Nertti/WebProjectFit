@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+p,a,li,span{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', sans-serif;
+}
+p {
+    cursor: default;
+}
+.main{
+    width: 1300px;
+    margin: auto;
+
+}
+.title{
+    font-size: 50px;
+    color: #373a47;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+.notitle{
+    font-size: 30px;
+    color: #373a47;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+img{
+
+    display: block;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    padding: 30px 0;
+}
+.button{
+    border: 3px solid #373a47;
+    border-radius: 50px;
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    color: #373a47;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.8s;
+}
+.button:hover{
+    background-color: #373a47;
+    color: #b4bad2;
+    cursor: pointer;
+}
+.for-event{
+    display: flex;
+    padding: 50px;
+}
+.event{
+    width: 500px;
+    margin: auto;
+}
+.card-event{
+    padding: 10px 0;
+}
+.text{
+    font-size: 20px;
+    color: #373a47;
+    text-align: justify;
+    padding: 20px 0;
+    font-weight: 500;
+}
+.weight .fas{
+    width: 300px;
+    margin: auto;
+    display: block;
+    font-size: 300px;
+    color: #373a47;
+}
