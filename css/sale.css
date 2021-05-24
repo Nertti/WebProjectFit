@@ -11,18 +11,31 @@
     border:2px solid #373a47;
     transition: 1s;
     display: flex;
-    border-radius: 20px;
+    padding-right: 15px;
 }
 .blog:hover{
     background-color: rgba(55, 58, 71, 0.1);
     cursor: pointer;
 }
-.blog img{
-    margin: 25px;
-    border: 1px solid rebeccapurple;
+.square{
+    width: 170px;
+    height: 170px;
+    background: #373a47;
+    margin: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #b4bad2;
+    padding: 50px 10px;
 }
 .blog .button{
     position: relative;
-    top: 100px;
-    left: 370px;
+    left: 150px;
+}
+.title_in{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.in_blog{
+    position: relative;
 }
