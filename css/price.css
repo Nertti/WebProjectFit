@@ -1,7 +1,7 @@
 .table {
     font-family: 'Georgia', sans-serif;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 700px;
+    margin: 20px auto;
     border: 5px solid #fff;
     border-collapse: collapse;
     outline: 3px solid #373a47;
@@ -31,4 +31,19 @@ th.head{
 }
 .table tbody tr:nth-child(even){
     background: rgba(180, 186, 210, 0.6) !important;
+}
+.title2{
+    font-size: 30px;
+    color: #373a47;
+    text-align: center;
+}
+.title3{
+    font-size: 25px;
+    color: #373a47;
+    text-align: center;
+}
+.line{
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #373a47;
 }
