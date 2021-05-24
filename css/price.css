@@ -9,10 +9,13 @@
     background: #fff!important;
     color: #373a47;
 }
+.general{
+    padding-bottom: 20px;
+}
 .table th {
     font-weight: bold;
     padding: 7px;
-    background: #373a47;
+    /*background: #373a47;*/
     border: none;
     text-align: left;
     font-size: 15px;
@@ -46,4 +49,7 @@ th.head{
     width: 500px;
     margin: 20px auto;
     border: 1px solid #373a47;
+}
+.eee{
+ width: 500px;
 }

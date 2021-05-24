@@ -1,0 +1,31 @@
+.q{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+}
+.inq{
+    width: 500px;
+    margin: auto;
+}
+.block{
+    background-color: rgba(55, 58, 71, 0.14);
+    margin: 50px 0;
+    width: 500px;
+    border-radius: 20px;
+}
+.icon{
+    font-size: 25px;
+    color: #373a47;
+    padding: 5px;
+}
+.text{
+    width: 500px;
+    padding: 10px;
+}
+.block img{
+    border-radius: 20px 20px 0 0;
+}
+.button{
+    margin: 10px auto;
+}
